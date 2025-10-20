@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\src\CinderApp.cpp">
+      <Filter>App\Cinder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CinderConsole.cpp">
+      <Filter>App\Cinder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DrawingApp.cpp">
+      <Filter>Graphics and Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\VectorDrawing.cpp">
+      <Filter>Graphics and Drawing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AiDrawingApp.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OllamaClient\src\OllamaClientCinder.cpp">
+      <Filter>Libraries\Ollama</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\OllamaClient\src\OllamaClientBase.cpp">
+      <Filter>Libraries\Ollama</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Z\codebase\cinder_0.9.2_vc2015\blocks\OSC\src\cinder\osc\Osc.cpp">
+      <Filter>Libraries\Osc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ThreadSafeList.cpp">
+      <Filter>Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\blocks\Spout\include\SpoutSharedMemory.h">
+      <Filter>Libraries\Spout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\Spout\include\Spout.h">
+      <Filter>Libraries\Spout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\Spout\include\SpoutCommon.h">
+      <Filter>Libraries\Spout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\Spout\include\SpoutCopy.h">
+      <Filter>Libraries\Spout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\Spout\include\SpoutDirectX.h">
+      <Filter>Libraries\Spout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\Spout\include\SpoutGLDXinterop.h">
+      <Filter>Libraries\Spout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\Spout\include\SpoutGLextensions.h">
+      <Filter>Libraries\Spout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\Spout\include\SpoutMemoryShare.h">
+      <Filter>Libraries\Spout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\Spout\include\SpoutReceiver.h">
+      <Filter>Libraries\Spout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\Spout\include\SpoutSDK.h">
+      <Filter>Libraries\Spout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\Spout\include\SpoutSender.h">
+      <Filter>Libraries\Spout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\blocks\Spout\include\SpoutSenderNames.h">
+      <Filter>Libraries\Spout</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CinderApp.h">
+      <Filter>App\Cinder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CinderConsole.h">
+      <Filter>App\Cinder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DrawingApp.h">
+      <Filter>Graphics and Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\VectorDrawing.h">
+      <Filter>Graphics and Drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\AiDrawingApp.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Z\codebase\cinder_0.9.2_vc2015\blocks\OSC\src\cinder\osc\Osc.h">
+      <Filter>Libraries\Osc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Resources.h">
+      <Filter>Resources</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ThreadSafeList.h">
+      <Filter>Utilities</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Graphics and Drawing">
+      <UniqueIdentifier>{6aeed2d1-2cba-4edf-99fe-34ea99ce0c27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App">
+      <UniqueIdentifier>{6cfc3d8e-74cd-4159-b32d-1298aa217570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\Cinder">
+      <UniqueIdentifier>{e2843945-4cca-4df4-aecd-b91ae8415eb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries">
+      <UniqueIdentifier>{986ea736-bb32-4ef3-a563-bbc5ceace558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\Ollama">
+      <UniqueIdentifier>{e61b54f1-cc99-4f5b-a7cb-d3e16c202b20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\Spout">
+      <UniqueIdentifier>{9cdf7599-59a9-440c-9260-9bf7a63421f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Libraries\Osc">
+      <UniqueIdentifier>{dd850dbd-9f6f-456e-bc50-71ffff7c76e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{888735ec-1bfe-4d25-97c5-1fc99d9c4db0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utilities">
+      <UniqueIdentifier>{e5bba94b-1fa1-4b1b-a28b-5697907af768}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Resources.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
