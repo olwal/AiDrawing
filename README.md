@@ -24,15 +24,15 @@ Built with the Cinder framework, this application allows users to draw naturally
 
 | Final result | Animation (4X speed) |
 |------------|------------|
-| <img src="assets/car_perspective_thumb.png" width="240"/> | <img src="assets/car_perspective_4x_0.25scale.gif" width="240"/> |
-| <img src="assets/earth_thumb.png" width="240"/> | <img src="assets/earth_4x_0.25scale.gif" width="240"/> |
-| <img src="assets/guitar_cello_thumb.png" width="240"/> | <img src="assets/guitar_cello_4x_0.25scale.gif" width="240"/> |
-| <img src="assets/happy_sun_thumb.png" width="240"/> | <img src="assets/happy_sun_4x_0.25scale.gif" width="240"/> |
-| <img src="assets/house_thumb.png" width="240"/> | <img src="assets/house_4x_0.25scale.gif" width="240"/> |
-| <img src="assets/ocean_sailboat_thumb.png" width="240"/> | <img src="assets/ocean_sailboat_4x_0.25scale.gif" width="240"/> |
-| <img src="assets/rainy_cloud_thumb.png" width="240"/> | <img src="assets/rainy_cloud_4x_0.25scale.gif" width="240"/> |
-| <img src="assets/surfer_thumb.png" width="240"/> | <img src="assets/surfer_4x_0.25scale.gif" width="240"/> |
-| <img src="assets/train_thumb.png" width="240"/> | <img src="assets/train_4x_0.25scale.gif" width="240"/> |
+| <img src="assets/car_perspective_thumb.png" width="480"/> | <img src="assets/car_perspective_4x_0.25scale.gif" width="480"/> |
+| <img src="assets/earth_thumb.png" width="480"/> | <img src="assets/earth_4x_0.25scale.gif" width="480"/> |
+| <img src="assets/guitar_cello_thumb.png" width="480"/> | <img src="assets/guitar_cello_4x_0.25scale.gif" width="480"/> |
+| <img src="assets/happy_sun_thumb.png" width="480"/> | <img src="assets/happy_sun_4x_0.25scale.gif" width="480"/> |
+| <img src="assets/house_thumb.png" width="480"/> | <img src="assets/house_4x_0.25scale.gif" width="480"/> |
+| <img src="assets/ocean_sailboat_thumb.png" width="480"/> | <img src="assets/ocean_sailboat_4x_0.25scale.gif" width="480"/> |
+| <img src="assets/rainy_cloud_thumb.png" width="480"/> | <img src="assets/rainy_cloud_4x_0.25scale.gif" width="480"/> |
+| <img src="assets/surfer_thumb.png" width="480"/> | <img src="assets/surfer_4x_0.25scale.gif" width="480"/> |
+| <img src="assets/train_thumb.png" width="480"/> | <img src="assets/train_4x_0.25scale.gif" width="480"/> |
 
 ---
 
