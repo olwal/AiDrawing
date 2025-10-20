@@ -22,7 +22,7 @@ Built with the Cinder framework, this application allows users to draw naturally
 
 *(All GIFs below show AI-assisted drawing auto-completion in real time.)*
 
-| Thumbnail | Animation |
+| Final result | Animation (4X speed) |
 |------------|------------|
 | <img src="assets/car_perspective_thumb.png" width="240"/> | <img src="assets/car_perspective_4x_0.25scale.gif" width="240"/> |
 | <img src="assets/earth_thumb.png" width="240"/> | <img src="assets/earth_4x_0.25scale.gif" width="240"/> |
