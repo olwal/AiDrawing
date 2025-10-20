@@ -67,6 +67,7 @@ App (Cinder) → CinderApp → DrawingApp → AIDrawingApp
 
 ### System Overview
 
+```
       ┌────────────────────────────────────────────────────────────┐
       │                        User                                │
       │                  (Interactive Drawing)                     │
@@ -104,6 +105,7 @@ App (Cinder) → CinderApp → DrawingApp → AIDrawingApp
            │ - Combines AI output + drawing│
            │ - Displays augmented canvas   │
            └──────────────────────────────┘
+```
 
 
 ---
