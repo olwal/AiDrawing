@@ -88,7 +88,7 @@ App (Cinder) → CinderApp → DrawingApp → AIDrawingApp
             │                 │
             ▼                 ▼
   ┌───────────────────┐   ┌───────────────────────────┐
-  │ OllamaClientCinder│   │ StreamDiffusionSpoutServer│
+  │ OllamaClientCinder│   │ StreamDiffusionSpoutService│
   │ (AI Interpretation│   │ (AI Image Generation)     │
   │  via Ollama)      │   │  via Diffusion Models)    │
   │───────────────────│   │───────────────────────────│
@@ -133,7 +133,7 @@ App (Cinder) → CinderApp → DrawingApp → AIDrawingApp
   - Windows support via WinHTTP  
   - No external dependencies (includes Base64 + JSON)  
 
-- **[StreamDiffusionSpoutServer](https://github.com/olwal/StreamDiffusionSpoutService)** — Real-time image generation server  
+- **[StreamDiffusionSpoutService](https://github.com/olwal/StreamDiffusionSpoutService)** — Real-time image generation server  
   - Receives **drawing image + prompt**  
   - Performs **real-time image-to-image diffusion**  
   - GPU-accelerated output shared via Spout  
@@ -191,7 +191,7 @@ AiDrawing/
 2. **Cinder Framework** — Download from [libcinder.org](https://libcinder.org/) and include the Spout block
 3. **Ollama** — Install from [ollama.com](https://ollama.com/)
 4. **LLaVA model** — Run `ollama pull llava:7b` to download vision model
-5. [**StreamDiffusionSpoutServer**](https://github.com/olwal/StreamDiffusionSpoutService) — Real-time image generation server (separate application, clone and run separately)
+5. [**StreamDiffusionSpoutService**](https://github.com/olwal/StreamDiffusionSpoutService) — Real-time image generation server (separate application, clone and run separately)
 6. [**Spout**](https://spout.zeal.co/) — GPU texture sharing (included via Cinder Spout block)
 
 **Note:** [OllamaClientCinder](https://github.com/olwal/OllamaClient) is included automatically as a git submodule.
@@ -233,7 +233,7 @@ Before launching **AIDrawing**, make sure both AI backends are running:
    - Handles vision analysis of your drawing.
    - Provides semantic descriptions that guide the diffusion model.
 
-2. **Run StreamDiffusionSpoutServer** — Must be active for image generation.
+2. **Run StreamDiffusionSpoutService** — Must be active for image generation.
    - Receives both the user’s drawing (as an image) and the AI-generated description (as a text prompt).
    - Performs real-time **image-to-image diffusion** to enhance and complete your artwork.
    - Sends the generated result back to **AIDrawing** via **Spout** (GPU texture sharing).
@@ -241,7 +241,7 @@ Before launching **AIDrawing**, make sure both AI backends are running:
    When both services are active, **AIDrawing** forms a real-time creative loop:
 
   User draws → AIDrawing captures strokes → OllamaClientCinder analyzes drawing
-  → StreamDiffusionSpoutServer generates enhanced imagery → Spout sends result
+  → StreamDiffusionSpoutService generates enhanced imagery → Spout sends result
   → AIDrawing composites drawing + AI output in real time
 
 ## Usage
@@ -269,7 +269,7 @@ Change models by modifying the `model` variable in `AIDrawingApp::setup()`.
   **OllamaClientCinder** communicates with **Ollama** for multimodal inference, asynchronously generating semantic descriptions of the drawing.
 
 - **AI Image Generation**  
-  **StreamDiffusionSpoutServer** takes the current drawing and its interpreted prompt to perform real-time **image-to-image diffusion**, producing AI-augmented content streamed back via **Spout**.
+  **StreamDiffusionSpoutService** takes the current drawing and its interpreted prompt to perform real-time **image-to-image diffusion**, producing AI-augmented content streamed back via **Spout**.
 
 - **Concurrent Pipeline**  
   Drawing, inference, and generation operate in separate threads, coordinated by a **ThreadSafeList** for synchronized data sharing.
