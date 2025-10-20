@@ -292,3 +292,9 @@ The codebase follows standard C++ practices with:
 ## Author
 
 [Alex Olwal](https://github.com/olwal)
+
+## Related works: Closed-Loop AI Drawing Tools with VLM Interpretation
+- **[Graffiti-X](https://arxiv.org/abs/2508.19254)** - Real-time generative drawing system that interprets both formal intent (line quality, proportion) and contextual intent (semantic meaning) using VLMs for multi-user collaborative creation.
+- **[SketchAgent](https://sketch-agent.csail.mit.edu/)** - Language-driven sequential sketch generation using multimodal LLMs that enables stroke-by-stroke collaboration and chat-based editing of sketches.
+- **[AutoSketch](https://arxiv.org/abs/2502.06860)** - VLM-assisted style-aware vector sketch completion that iteratively analyzes and adjusts partial sketches to match the original drawing style.
+- **[CadVLM](https://www.research.autodesk.com/publications/cad-vlm/)** - End-to-end vision language model for parametric CAD sketch generation that performs autocompletion by interpreting partial sketches as both image and text inputs.
